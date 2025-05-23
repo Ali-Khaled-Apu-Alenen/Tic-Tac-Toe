@@ -1,0 +1,62 @@
+h1{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+body{
+background-image: url('img/wp8984734-tic-tac-toe-wallpapers.jpg');
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  padding: 100px;
+}
+.game-board{
+
+div{
+
+  width: 450px;
+  height: 150px;
+
+  border-radius: 5px;
+  display: flex;
+
+  margin:  auto;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .input{
+      background-color:darkblue;
+      color: white;
+opacity:0.8 ;
+   &:hover{
+    opacity: 1;
+   }
+    margin: 0 10px;
+
+  }
+  }
+  
+  .row{
+    margin: 10px auto;
+  }
+}
+.messge{
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  .player-x{
+    color: red;
+    font-weight: bold;
+  }
+  .player-o{
+    color: blue;
+    font-weight: bold;
+  }
+}
